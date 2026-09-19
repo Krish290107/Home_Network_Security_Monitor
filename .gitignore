@@ -1,0 +1,16 @@
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+
+.env
+
+# Scan output contains your own IPs and MAC addresses - keep it local.
+data/*.json
+!data/.gitkeep
+data/.tmp-*
+
+reports/*.csv
+reports/*.html
+!reports/.gitkeep
